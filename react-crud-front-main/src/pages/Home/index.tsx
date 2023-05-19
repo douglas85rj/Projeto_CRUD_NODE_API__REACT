@@ -78,7 +78,7 @@ export default function Home() {
                 style={{
                   marginTop: '2rem',
                 }}
-              >Você ainda não possui nenhum contato :(</p>
+              >Contato não encontrado :(</p>
             )
           ) : (
             <SyncLoader color='#e90239' />
