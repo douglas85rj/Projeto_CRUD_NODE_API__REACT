@@ -23,8 +23,10 @@ export default function UserCard({ user, handleRemoveUser } : UserProps) {
     <Container>
       <UserInfo>
         <strong>{user.name}</strong>
-        <p>{user.email}</p>
-        <p>since {formatDate(user.createdAt)}</p>
+        <p>email: {user.email}</p>
+        <p>id: {user.id}</p>
+        <p>Data de criação: {formatDate(user.createdAt)}</p>
+        <p>Data de atualização: {formatDate(user.updatedAt)}</p>
       </UserInfo>
 
       <button onClick={() => handleRemoveUser(user.id)}>Remover</button>

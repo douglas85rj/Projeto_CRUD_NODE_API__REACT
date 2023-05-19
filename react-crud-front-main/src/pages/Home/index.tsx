@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <Container>
       <Header>
-        <h1>My<span>Contacts</span></h1>
+        <h1>Meus<span>Contatos</span></h1>
 
         <input
           type="text"
@@ -81,7 +81,7 @@ export default function Home() {
               >Você ainda não possui nenhum contato :(</p>
             )
           ) : (
-            <SyncLoader color='#e15964' />
+            <SyncLoader color='#e90239' />
           )
         }
       </UsersList>
