@@ -96,7 +96,7 @@ app.put('/users/:id', async (req, rep) => {
 });
 
 app.listen({
-  host: '127.0.0.1',
+  host: '0.0.0.0',
   port: process.env.PORT ? Number(process.env.PORT) : 3333,
 }).then(() => {
   console.log('HTTP server Running');
